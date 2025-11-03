@@ -1,53 +1,50 @@
-#!/bin/bash
-# Mini File Search Utility - Menu Driven
+**Project Title:**
+Mini File Search Utility (Bash Script in Unix)
 
-while true
-do
-    clear
-    echo "=============================="
-    echo "   MINI FILE SEARCH UTILITY   "
-    echo "=============================="
-    echo "1. Search file by name"
-    echo "2. Search file by extension"
-    echo "3. Search file by content"
-    echo "4. Search files modified in last N days"
-    echo "5. Exit"
-    echo "------------------------------"
-    read -p "Enter your choice [1-5]: " choice
+**Meaning / Description:**
 
-    case $choice in
-        1)
-            read -p "Enter filename to search: " fname
-            echo "Searching for files named '$fname'..."
-            find / -type f -name "$fname" 2>/dev/null
-            ;;
-        2)
-            read -p "Enter file extension (e.g. txt, sh, cpp): " ext
-            echo "Searching for *.$ext files..."
-            find / -type f -name "*.$ext" 2>/dev/null
-            ;;
-        3)
-            read -p "Enter text to search inside files: " text
-            read -p "Enter directory path to search in: " path
-            echo "Searching for text '$text' in files under $path..."
-            grep -rl "$text" "$path" 2>/dev/null
-            ;;
-        4)
-            read -p "Enter number of days: " days
-            echo "Searching for files modified in last $days days..."
-            find / -type f -mtime -$days 2>/dev/null
-            ;;
-        5)
-            echo "Exiting... Thank you!"
-            exit 0
-            ;;
-        *)
-            echo "Invalid choice. Please try again."
-            ;;
-    esac
+The Mini File Search Utility is a menu-driven Bash script designed for Unix/Linux systems that allows users to quickly and efficiently search files within a directory.
+It uses standard Unix commands like find, grep, and optionally Git commands to locate files based on different parameters such as name, extension, content, size, or last modification date.
 
-    echo ""
-    read -p "Press Enter to continue..."
-done
+This utility simplifies file management tasks, helping users avoid long and complex command-line searches.
+It provides an interactive, user-friendly interface suitable for students, developers, and system administrators.
+
+
+**Main Features:**
+
+🔍 Search by File Name
+
+Finds files matching an exact name in the given directory.
+
+🧩 Search by File Extension
+
+Lists all files with a specific extension (e.g., .txt, .sh, .cpp).
+
+🧠 Search by Content
+
+Uses grep to locate files containing specific text or keywords.
+
+📏 Search by File Size
+
+Finds files larger or smaller than a given size (e.g., +1M, -500k).
+
+🕒 Search Files Modified in Last N Days
+
+Displays files recently changed or updated.
+
+🧾 Menu-Driven Interface
+
+Easy-to-use and continuously loops until the user chooses to exit.
+
+⚙️ Optional Git Integration (Advanced Feature)
+
+Allows searching tracked files, viewing commit logs, and checking the last modification made to a file.
+
+🚪 Exit Option
+
+Gracefully ends the program when the user chooses to exit.
+
+
+
  
 
