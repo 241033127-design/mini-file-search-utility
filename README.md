@@ -45,6 +45,20 @@ Allows searching tracked files, viewing commit logs, and checking the last modif
 Gracefully ends the program when the user chooses to exit.
 
 
+![WhatsApp Image 2025-11-09 at 19 53 38_d8e5b121](https://github.com/user-attachments/assets/23fbb2da-5be0-4142-bbb7-8cd192c23084)
+
+![WhatsApp Image 2025-11-09 at 19 55 19_2ec3e2ba](https://github.com/user-attachments/assets/dabbf4d5-2f36-44a8-bf2c-074a60ece742)
+
+![WhatsApp Image 2025-11-09 at 19 56 13_8b7650e6](https://github.com/user-attachments/assets/4ec657ba-beab-4893-ae61-f70874ac1366)
+
+![WhatsApp Image 2025-11-09 at 19 58 02_2b67af30](https://github.com/user-attachments/assets/9e24c6f7-38b1-452e-a9bc-1c9c6ad9594e)
+
+![WhatsApp Image 2025-11-09 at 19 58 34_a9686b98](https://github.com/user-attachments/assets/bf91192a-fd94-425a-b0ab-61a728e28f2d)
+
+
+
+
+
 
  
 
