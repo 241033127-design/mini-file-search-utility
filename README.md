@@ -12,35 +12,35 @@ It provides an interactive, user-friendly interface suitable for students, devel
 
 **Main Features:**
 
-🔍 Search by File Name
+ -Search by File Name
 
 Finds files matching an exact name in the given directory.
 
-🧩 Search by File Extension
+ -Search by File Extension
 
 Lists all files with a specific extension (e.g., .txt, .sh, .cpp).
 
-🧠 Search by Content
+ -Search by Content
 
 Uses grep to locate files containing specific text or keywords.
 
-📏 Search by File Size
+- Search by File Size
 
 Finds files larger or smaller than a given size (e.g., +1M, -500k).
 
-🕒 Search Files Modified in Last N Days
+- Search Files Modified in Last N Days
 
 Displays files recently changed or updated.
 
-🧾 Menu-Driven Interface
+- Menu-Driven Interface
 
 Easy-to-use and continuously loops until the user chooses to exit.
 
-⚙️ Optional Git Integration (Advanced Feature)
+- Optional Git Integration (Advanced Feature)
 
 Allows searching tracked files, viewing commit logs, and checking the last modification made to a file.
 
-🚪 Exit Option
+- Exit Option
 
 Gracefully ends the program when the user chooses to exit.
 
